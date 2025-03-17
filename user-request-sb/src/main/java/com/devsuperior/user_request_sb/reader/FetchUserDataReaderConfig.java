@@ -55,7 +55,7 @@ public class FetchUserDataReaderConfig implements ItemReader<UserDTO> {
 
   private List<UserDTO> fetchUserDataFromAPI() {
 
-    String uri = BASE_URL + "clients/pagedData?page=%d&size=%d";
+    String uri = BASE_URL + "/clients/pagedData?page=%d&size=%d";
 
     logger.info("[READER STEP] Fecthing data ...");
     logger.info("[READER STEP] Request uri: " + String.format(uri, getPage(), pageSize));
