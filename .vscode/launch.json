@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-ClientsApplication<clients>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.devsuperior.api.clients.ClientsApplication",
+      "projectName": "clients",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-UserRequestSbApplication<user-request-sb>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.devsuperior.user_request_sb.UserRequestSbApplication",
+      "projectName": "user-request-sb",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
